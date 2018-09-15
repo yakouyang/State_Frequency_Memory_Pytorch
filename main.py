@@ -37,7 +37,7 @@ def main():
     test_function = test_sfm
 
     if opt.net not in ["lstm","sfm"]:
-            raise NameError("Undefined net!!")
+        raise NameError("Undefined net!!")
 
     if opt.net == "lstm":
         net = lstm
