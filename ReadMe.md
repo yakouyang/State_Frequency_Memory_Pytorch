@@ -7,7 +7,7 @@ In addition to the SFM model, the LSTM model is built in for comparison.
 ## Usage
 The project has pre-trained weights fot both two models. So you can see the test results directly without training.    
 Training process be controlled by adding parameters.   
-Parameter tables:
+Parameter tables:     
 Parameter  | Explanation |format|default
 ------------- | ------------- |--------------|--------
 epochs  | training epochs|int|10
