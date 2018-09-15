@@ -8,13 +8,14 @@ In addition to the SFM model, the LSTM model is built in for comparison.
 The project has pre-trained weights fot both two models. So you can see the test results directly without training.    
 Training process be controlled by adding parameters.   
 Parameter tables:     
-Parameter  | Explanation |format|default
-------------- | ------------- |--------------|--------
-epochs  | training epochs|int|10
-step  | predict step    |int|5
-net   | choose the network you want to train or test   |str|"sfm"
-train | train or not |int| 0
-test | test or not | int|1
+
+|Parameter  | Explanation |format|default|
+|------------- | ------------- |--------------|--------|
+|epochs  | training epochs|int|10|
+|step  | predict step    |int|5|
+|net   | choose the network you want to train or test   |str|"sfm"|
+|train | train or not |int| 0|
+|test | test or not | int|1|
 
 **Examples:**
 - Want to show the prediction results of the SFM network:    
